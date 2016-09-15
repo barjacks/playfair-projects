@@ -274,7 +274,7 @@ try:
     x3 = forest.predict_proba([100000, 5, 3778, country3])[0][1]
     print(country_name1, ": {0:.1f}%.".format(x1*100))
     print(country_name2, ": {0:.1f}%.".format(x2*100))
-    print(country_name3, ": {0:.1f}%.".format(x2*100))
+    print(country_name3, ": {0:.1f}%.".format(x3*100))
 except:
     'ValueError'
 
